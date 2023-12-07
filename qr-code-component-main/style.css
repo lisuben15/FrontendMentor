@@ -1,0 +1,58 @@
+body {
+    
+    background: hsl(212, 45%, 89%);;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    display: grid; /* formato grila */
+    place-items: center; /* centrar */ 
+    min-height: 100vh;
+
+}
+
+.card {
+   background: hsl(0, 0%, 100%);
+    width: 298px;  /*ancho*/
+    height: 450px;           /* altura*/
+    padding: 16px 16px 40px 16px;    /* espaciado interno */ 
+    border-radius: 20px;   /* bordes redondeados */
+
+
+}
+
+.logo {
+
+    width: 100%;  /* ancho . la imagen contiene un ancho en la totalidad del div  */ 
+    border-radius: 10px;
+
+}
+
+.title {
+ 
+    font-size: 22.3px;
+    color: hsl(218, 44%, 22%);
+}
+
+.parrafo {
+   font-size: 16px;
+   color: hsl(220, 15%, 55%);
+}
+
+.contenedor-texto {
+
+    padding-inline: 10px;
+    
+    text-align: center; /* centrar texto en este caso  -- tambien se alinea a izquierda o derecha*/
+}
+
+/*
+
+ padding solo es a los cuatro lados puede tener sobre carga
+ padding-inline da espacios solo a los costados
+ padding-top es arriba 
+ padding-right deecha
+ padding-left iquierda
+ padding-bottom abajo
+
+
+
+*/
